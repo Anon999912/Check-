@@ -1,0 +1,112 @@
+body {
+    background-image: url(/img/poky.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .container {
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #C0C0C0;
+    border-radius: 10px;
+    background-image: url(/img/ffb7a7d5-d7eb-433c-83d6-35c8996bb979.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .logo {
+    display: block;
+    margin: 0
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #404040;
+  }
+
+  label {
+    display: block;
+    margin: 10px 0 5px 0;
+    color: #808080;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  input:focus {
+    border-color: #8080FF;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #8080FF;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #4040FF;
+  }
+
+  .error {
+    display: none;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #FF8080;
+    border-radius: 5px;
+    background-color: #FFE0E0;
+    color: #FF0000;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 480px) {
+    .container {
+      width: 90%;
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    label {
+      font-size: 16px;
+    }
+
+    input {
+      font-size: 16px;
+    }
+
+    button {
+      font-size: 16px;
+    }
+
+    .error {
+      font-size: 14px;
+    }
+  }
